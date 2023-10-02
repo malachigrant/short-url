@@ -1,0 +1,12 @@
+{
+  "include": ["packages/short-url-server/src/**/*.ts"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "lib"
+  }
+}
