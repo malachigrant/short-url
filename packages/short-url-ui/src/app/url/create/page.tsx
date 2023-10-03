@@ -1,3 +1,5 @@
+import Textbox from 'ui-library/components/Textbox';
+
 export default function CreateUrlPage() {
-  return <h1>Create Page</h1>;
+  return <Textbox text="hi" />;
 }

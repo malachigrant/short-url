@@ -2,6 +2,8 @@
   "name": "short-url-ui",
   "version": "0.1.0",
   "private": true,
+  "main": "lib",
+  "module": "lib",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +13,8 @@
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "next": "latest",
+    "ui-library": "workspace:*"
   },
   "devDependencies": {
     "typescript": "latest",
