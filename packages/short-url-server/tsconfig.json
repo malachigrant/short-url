@@ -2,7 +2,8 @@
   "extends": "../../tsconfig.base.json",
   "include": ["src"],
   "compilerOptions": {
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "outDir": "lib"
   },
   "ts-node": {
     "require": ["tsconfig-paths/register"]

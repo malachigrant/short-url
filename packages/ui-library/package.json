@@ -7,8 +7,11 @@
     "test": "jest",
     "build": "tsc"
   },
+  "files": [
+    "src/components/*"
+  ],
   "exports": {
-    "./components/*.tsx": "./src/components/*.tsx"
+    "./components/*": "./src/components/*.tsx"
   },
   "author": "",
   "license": "ISC"
